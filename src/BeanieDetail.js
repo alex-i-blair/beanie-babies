@@ -15,7 +15,7 @@ export default function BeanieDetail() {
     }
     // you'll need to define a fetch function here (then call it below) that gets this page's beanie baby and injects it into state using the correct state handler
     onLoad();
-  }, []); // note that you'll want the id from the url in the dependency array because you want the useEffect callback to get called every time the url changes
+  }, [params.id]); // note that you'll want the id from the url in the dependency array because you want the useEffect callback to get called every time the url changes
 
   function handleBeanieClick() {
     window.open(beanieBaby.link);

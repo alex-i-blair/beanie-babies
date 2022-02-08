@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import BeanieBaby from './BeanieBaby.js';
 
 export default function BeaniesList({ beanieBabies }) {
